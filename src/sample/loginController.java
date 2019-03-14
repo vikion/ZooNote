@@ -1,6 +1,7 @@
 package sample;
 
 
+import connectivity.ConnectionClass;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -14,11 +15,16 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ResourceBundle;
 
 public class loginController implements Initializable {
-    private String x= "jaro";
-    private String y= "opica";
+
+    ConnectionClass connectionClass = new ConnectionClass();
+    Connection connection = connectionClass.getConnection();
+
     @FXML
     private TextField meno;
     @FXML
@@ -32,13 +38,22 @@ public class loginController implements Initializable {
 
 
     @FXML
-    private void prihlasSa() {
+    private void prihlasSa() throws SQLException {
         String login= meno.getText().toLowerCase();
         String pass = heslo.getText();
 
+        String getUsernameSql = "SELECT username FROM uzivatel WHERE username = " + login + ";";
+        String getPasswordSql = "SELECT password FROM uzivatel WHERE username = " + pass + ";";
+
+        Statement statementUsername = connection.createStatement();
+        statementUsername.executeUpdate(getUsernameSql);
+
+        Statement statementPassword = connection.createStatement();
+        statementUsername.executeUpdate(getPasswordSql);
 
 
-        if (x.equals(login) && y.equals(pass)) {
+
+        if (statementUsername.equals(login) && statementPassword.equals(pass)) {
             try {
                 Stage stage = (Stage) meno.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Uvod.fxml"));
