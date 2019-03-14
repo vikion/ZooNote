@@ -16,6 +16,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ResourceBundle;
@@ -42,18 +43,25 @@ public class loginController implements Initializable {
         String login= meno.getText().toLowerCase();
         String pass = heslo.getText();
 
-        String getUsernameSql = "SELECT username FROM uzivatel WHERE username = " + login + ";";
-        String getPasswordSql = "SELECT password FROM uzivatel WHERE username = " + pass + ";";
+        String getUsernameSql = "SELECT username FROM uzivatel WHERE username = '" + login + "';";
+        String getPasswordSql = "SELECT password FROM uzivatel WHERE password = '" + pass + "';";
 
         Statement statementUsername = connection.createStatement();
-        statementUsername.executeUpdate(getUsernameSql);
+        ResultSet username = statementUsername.executeQuery(getUsernameSql);
+        username.first();
 
         Statement statementPassword = connection.createStatement();
-        statementUsername.executeUpdate(getPasswordSql);
+        ResultSet password = statementPassword.executeQuery(getPasswordSql);
+        password.first();
 
 
+        System.out.println(login);
+        System.out.println(pass);
+        System.out.println(username.getString(1));
+        System.out.println(password.getString(1));
 
-        if (statementUsername.equals(login) && statementPassword.equals(pass)) {
+
+        if ((username.getString(1)).equals(login) && (password.getString(1)).equals(pass)) {
             try {
                 Stage stage = (Stage) meno.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Uvod.fxml"));
