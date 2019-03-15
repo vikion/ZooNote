@@ -44,7 +44,7 @@ public class loginController implements Initializable {
         String pass = heslo.getText();
 
         String getUsernameSql = "SELECT username FROM uzivatel WHERE username = '" + login + "';";
-        String getPasswordSql = "SELECT password FROM uzivatel WHERE password = '" + pass + "';";
+        String getPasswordSql = "SELECT password FROM uzivatel WHERE username = '" + login + "' AND password = '"+ pass+"';";
 
         Statement statementUsername = connection.createStatement();
         ResultSet username = statementUsername.executeQuery(getUsernameSql);
@@ -55,15 +55,10 @@ public class loginController implements Initializable {
         password.first();
 
 
-        System.out.println(login);
-        System.out.println(pass);
-        System.out.println(username.getString(1));
-        System.out.println(password.getString(1));
-
 
         if ((username.getString(1)).equals(login) && (password.getString(1)).equals(pass)) {
             try {
-                Stage stage = (Stage) meno.getScene().getWindow();
+                Stage stage = (Stage) prihlas.getScene().getWindow();
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("Uvod.fxml"));
 
                 Parent root = loader.load();
