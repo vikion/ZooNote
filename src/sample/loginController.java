@@ -37,8 +37,8 @@ public class loginController implements Initializable {
         String login= meno.getText().toLowerCase();
         String pass = heslo.getText();
 
-        String sqlUsername = "SELECT username FROM pouzivatel WHERE login = ? AND password = ?";
-        String sqlPassword = "SELECT password FROM pouzivatel WHERE login = ? AND password = ?";
+        String sqlUsername = "SELECT username FROM pouzivatel WHERE username = ? AND password = ?";
+        String sqlPassword = "SELECT password FROM pouzivatel WHERE username = ? AND password = ?";
 
         Connection connection = ConnectionClass.getConnection();
 
