@@ -15,16 +15,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ResourceBundle;
 
 public class loginController implements Initializable {
-
-    ConnectionClass connectionClass = new ConnectionClass();
-    Connection connection = connectionClass.getConnection();
 
     @FXML
     private TextField meno;
@@ -43,15 +37,21 @@ public class loginController implements Initializable {
         String login= meno.getText().toLowerCase();
         String pass = heslo.getText();
 
-        String getUsernameSql = "SELECT username FROM uzivatel WHERE username = '" + login + "';";
-        String getPasswordSql = "SELECT password FROM uzivatel WHERE username = '" + login + "' AND password = '"+ pass+"';";
+        String sqlUsername = "SELECT username FROM pouzivatel WHERE login = ? AND password = ?";
+        String sqlPassword = "SELECT password FROM pouzivatel WHERE login = ? AND password = ?";
 
-        Statement statementUsername = connection.createStatement();
-        ResultSet username = statementUsername.executeQuery(getUsernameSql);
+        Connection connection = ConnectionClass.getConnection();
+
+        PreparedStatement statementForUsername = connection.prepareStatement(sqlUsername);
+        statementForUsername.setString(1, login);
+        statementForUsername.setString(2, pass);
+        ResultSet username = statementForUsername.executeQuery();
         username.first();
 
-        Statement statementPassword = connection.createStatement();
-        ResultSet password = statementPassword.executeQuery(getPasswordSql);
+        PreparedStatement statementForPassword = connection.prepareStatement(sqlPassword);
+        statementForPassword.setString(1, login);
+        statementForPassword.setString(2, pass);
+        ResultSet password = statementForPassword.executeQuery();
         password.first();
 
 
