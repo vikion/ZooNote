@@ -21,6 +21,7 @@ import java.util.ResourceBundle;
 
 public class loginController implements Initializable {
 
+
     @FXML
     private TextField meno;
     @FXML
@@ -33,6 +34,7 @@ public class loginController implements Initializable {
     private Label zle;
 
     private ResultSet accName,accSurname;
+
     public static String nameSurname;
 
     @FXML
@@ -82,6 +84,7 @@ public class loginController implements Initializable {
         statementForSurname.setString(2, pass);
         accSurname = statementForSurname.executeQuery();
         accSurname.next();
+
         if (!accSurname.isClosed()) {
             nameSurname = nameSurname + " " + accSurname.getString(1);
         }
@@ -139,6 +142,14 @@ public class loginController implements Initializable {
             heslo.setText("");
         }
     }
+
+    /*public String  getNameSurname(){
+        //System.out.println(nameSurname+" GET");
+        return nameSurname;
+    }
+    public void setNameSurname(String nameSurname){
+        contentController.menoPriezvisko.setText(nameSurname);
+    }*/
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="prepojenie s layoutom podla loginu" />
+=======
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="prepojenie s layoutom podla loginu">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e79b5470-3a2e-45f1-a6eb-d00ddd96be79.corrupted.20190317-065843.reason.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e79b5470-3a2e-45f1-a6eb-d00ddd96be79.corrupted.20190317-065843.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e79b5470-3a2e-45f1-a6eb-d00ddd96be79.corrupted.20190318-085546.reason.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e79b5470-3a2e-45f1-a6eb-d00ddd96be79.corrupted.20190318-085546.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1f38a77-c4ea-42d7-84ca-be2d41b1e96f.corrupted.20190316-043940.reason.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1f38a77-c4ea-42d7-84ca-be2d41b1e96f.corrupted.20190316-043940.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1f38a77-c4ea-42d7-84ca-be2d41b1e96f.corrupted.20190317-065634.reason.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f1f38a77-c4ea-42d7-84ca-be2d41b1e96f.corrupted.20190317-065634.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/mysql-connector-java-5.1.47-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/connectivity/sqlite-jdbc-3.27.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/ANIMAL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/FINANCES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/INVOICES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/MESSAGES.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/REPAIRS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/USER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/drop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/image/panda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Animals.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Attendant.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Finances.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Invoices.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Mechanic.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Repairs.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Users.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Uvod.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Animals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Finances.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Home.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Invoices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Repairs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zoonote" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Admin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Admin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Attendant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Attendant.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Mechanic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Mechanic.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/contentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/contentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/loginController.java" afterDir="false" />
+    </list>
+>>>>>>> layout_after_login
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -81,34 +133,40 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="fxml" value="23" />
-          <entry key="java" value="2266" />
+          <entry key="java" value="2896" />
           <entry key="txt" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2266" />
+          <entry key="JAVA" value="2896" />
           <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="29" />
-          <entry key="java" value="28" />
+          <entry key="fxml" value="32" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
-          <entry key="XML" value="29" />
+          <entry key="JAVA" value="30" />
+          <entry key="XML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="2" />
+=======
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.10" value="2" />
+>>>>>>> layout_after_login
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -121,8 +179,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-255">
               <caret line="94" column="50" lean-forward="true" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+=======
+            <state relative-caret-position="-204">
+              <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
+>>>>>>> layout_after_login
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,7 +206,11 @@
         <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
+<<<<<<< HEAD
               <caret line="56" selection-start-line="56" selection-end-line="56" />
+=======
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+>>>>>>> layout_after_login
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,24 +328,24 @@
         <option value="$PROJECT_DIR$/src/sample/User.java" />
         <option value="$PROJECT_DIR$/src/connectivity/ConnectionClass.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
-        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/layout/Invoices.fxml" />
         <option value="$PROJECT_DIR$/src/layout/Repairs.fxml" />
         <option value="$PROJECT_DIR$/src/layout/Users.fxml" />
-        <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
-        <option value="$PROJECT_DIR$/src/layout/Mechanic.fxml" />
-        <option value="$PROJECT_DIR$/src/layout/Attendant.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Animals.java" />
         <option value="$PROJECT_DIR$/src/sample/Finances.java" />
-        <option value="$PROJECT_DIR$/src/sample/Home.java" />
         <option value="$PROJECT_DIR$/src/sample/Invoices.java" />
         <option value="$PROJECT_DIR$/src/sample/Repairs.java" />
         <option value="$PROJECT_DIR$/src/sample/Users.java" />
         <option value="$PROJECT_DIR$/src/layout/Animals.fxml" />
         <option value="$PROJECT_DIR$/src/layout/Finances.fxml" />
         <option value="$PROJECT_DIR$/src/layout/Uvod.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/Attendant.fxml" />
+        <option value="$PROJECT_DIR$/src/layout/Mechanic.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
         <option value="$PROJECT_DIR$/src/sample/loginController.java" />
+        <option value="$PROJECT_DIR$/src/sample/Home.java" />
       </list>
     </option>
   </component>
@@ -350,7 +417,7 @@
     <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.ContextMenu" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552900062926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552991490418" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -495,7 +562,10 @@
       <workItem from="1552633191081" duration="2463000" />
       <workItem from="1552731486346" duration="6284000" />
       <workItem from="1552752994763" duration="8212000" />
-      <workItem from="1552895749698" duration="4238000" />
+      <workItem from="1552895749698" duration="4652000" />
+      <workItem from="1552987013559" duration="3565000" />
+      <workItem from="1553018331684" duration="597000" />
+      <workItem from="1553021694142" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1552555350736</created>
@@ -504,11 +574,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552555350736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="prepojenie s layoutom podla loginu">
+      <created>1552900091096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552900091096</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44624000" />
+    <option name="totallyTimeSpent" value="50484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +608,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2657267" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2657267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5127479" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,7 +619,7 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.18329719" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.18329719" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="16" />
@@ -610,18 +687,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/sample.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/UvodController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -639,6 +709,8 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+>>>>>>> layout_after_login
         </state>
       </provider>
     </entry>
@@ -658,22 +730,6 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/Mechanic.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="268" selection-start-line="12" selection-start-column="268" selection-end-line="12" selection-end-column="268" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/Attendant.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Animals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -688,6 +744,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -695,6 +752,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> layout_after_login
     <entry file="file://$PROJECT_DIR$/src/sample/Invoices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -709,33 +768,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="109" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/Animals.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/Finances.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/Home.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
+<<<<<<< HEAD
+          <caret line="9" column="109" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="109" />
+=======
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+>>>>>>> layout_after_login
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -748,6 +788,31 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/Finances.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/Admin.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/Animals.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="100" selection-start-line="5" selection-start-column="100" selection-end-line="5" selection-end-column="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/layout/Admin.fxml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -760,9 +825,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="94" column="50" lean-forward="true" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="109" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/Attendant.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/Mechanic.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="268" selection-start-line="12" selection-start-column="268" selection-end-line="12" selection-end-column="268" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="97" column="50" lean-forward="true" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+>>>>>>> layout_after_login
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/sample.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="98" lean-forward="true" selection-start-line="9" selection-start-column="98" selection-end-line="9" selection-end-column="98" />
         </state>
       </provider>
     </entry>

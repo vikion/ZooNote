@@ -54,7 +54,7 @@
             </Label>
             <Line endX="75.0" layoutX="104.0" layoutY="242.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />
             <Line endX="75.0" layoutX="104.0" layoutY="281.0" startX="-84.0" strokeLineJoin="ROUND" strokeWidth="0.5" />
-            <ImageView fitHeight="36.0" fitWidth="48.0" layoutX="148.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="36.0" fitWidth="48.0" layoutX="148.0" layoutY="512.0" onMouseClicked="#onLogoutBtnClick" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../image/logout.png" />
                </image>
