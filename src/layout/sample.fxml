@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginController">
+<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.loginController">
    <center>
         <AnchorPane maxHeight="628.0" maxWidth="929.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="798.0" BorderPane.alignment="CENTER">
             <children>
@@ -36,7 +36,7 @@
                   <Image url="@../image/dalej.png" />
                </image>
             </ImageView>
-            <Label fx:id="zabudolHeslo" layoutX="345.0" layoutY="283.0" styleClass="textzabudol" text="Zabudol som heslo">
+            <Label fx:id="zabudolHeslo" layoutX="345.0" layoutY="283.0" onMouseClicked="#ZabudolPass" styleClass="textzabudol" text="Zabudol som heslo">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

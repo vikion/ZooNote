@@ -40,7 +40,7 @@
                   </Label>
                </children>
             </AnchorPane>
-            <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="204.0" mnemonicParsing="false" onAction="#onHomeBtnClick" prefHeight="39.0" prefWidth="123.0" style="-fx-background-color: transparent;" text="DOMOV" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="52.0" layoutY="204.0" mnemonicParsing="false" onAction="#onHomeBtnClick" prefHeight="39.0" prefWidth="123.0" style="-fx-background-color: transparent;" styleClass="hover" stylesheets="@../style.css" text="DOMOV" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font></Button>

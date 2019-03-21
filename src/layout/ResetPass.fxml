@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseClicked="#odosli" prefHeight="529.0" prefWidth="798.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ResetPass">
+   <children>
+      <TextField fx:id="loginRess" layoutX="274.0" layoutY="126.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></TextField>
+      <Label layoutX="274.0" layoutY="90.0" text="MENO">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="57.0" layoutX="371.0" layoutY="209.0" onMouseClicked="#odosli" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/dalej.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="35.0" fitWidth="44.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#spat" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/nazat.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ErrorResPass" layoutX="278.0" layoutY="323.0" prefHeight="18.0" prefWidth="244.0" textFill="RED" />
+   </children>
+</AnchorPane>

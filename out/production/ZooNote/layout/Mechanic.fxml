@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.contentController">
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.contentController">
    <center>
       <AnchorPane id="ddd" fx:id="contentPane" prefHeight="1080.0" prefWidth="1920.0" scaleZ="-1.0" style="-fx-background-image: url(&quot;Iimages/background.png&quot;);" BorderPane.alignment="CENTER" />
    </center>
@@ -39,11 +39,11 @@
                <font>
                   <Font size="18.0" />
                </font></Button>
-            <Button alignment="TOP_LEFT" layoutX="54.0" layoutY="280.0" mnemonicParsing="false" onAction="#onInvoicesBtnClick" prefHeight="39.0" prefWidth="133.0" style="-fx-background-color: transparent;" text="INVOICES" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="54.0" layoutY="280.0" mnemonicParsing="false" onAction="#onInvoicesBtnClick" prefHeight="39.0" prefWidth="133.0" style="-fx-background-color: transparent;" text="SPRÁVY" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font></Button>
-            <Button alignment="TOP_LEFT" layoutX="56.0" layoutY="243.0" mnemonicParsing="false" onAction="#onRepairsBtnClick" prefHeight="39.0" prefWidth="129.0" style="-fx-background-color: transparent;" text="REPAIRS" textFill="WHITE">
+            <Button alignment="TOP_LEFT" layoutX="56.0" layoutY="243.0" mnemonicParsing="false" onAction="#onRepairsBtnClick" prefHeight="39.0" prefWidth="129.0" style="-fx-background-color: transparent;" text="OPRAVY" textFill="WHITE">
                <font>
                   <Font size="18.0" />
                </font></Button>
@@ -61,7 +61,7 @@
             </ImageView>
             <ImageView fx:id="INVOICES" fitHeight="28.0" fitWidth="31.0" layoutX="27.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../image/INVOICES.png" />
+                  <Image url="@../image/MESSAGES.png" />
                </image></ImageView>
             <ImageView fitHeight="28.0" fitWidth="31.0" layoutX="27.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
                <image>

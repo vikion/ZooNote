@@ -25,3 +25,7 @@
 
 
   }
+
+  .hover:hover{
+  -fx-background-color:black;
+  }

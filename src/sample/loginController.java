@@ -97,6 +97,7 @@ public class loginController implements Initializable {
                         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/Admin.fxml"));
                         stage.setTitle("ZooNote");
 
+
                         Scene scene = new Scene(root);
                         stage.setScene(scene);
                         stage.show();
@@ -151,6 +152,21 @@ public class loginController implements Initializable {
         contentController.menoPriezvisko.setText(nameSurname);
     }*/
 
+    @FXML
+    private void ZabudolPass(){
+        try {
+            Stage stage = (Stage) zabudolHeslo.getScene().getWindow();
+            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/ResetPass.fxml"));
+            stage.setTitle("Obnovenie Hesla");
+
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println("Nepodarilo sa nacitat Reset Pass");
+        }
+    }
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
