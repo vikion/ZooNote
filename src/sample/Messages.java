@@ -16,8 +16,6 @@ public class Messages {
         this.text = text;
         this.prijemca = 1;
         this.odosielatel = odosielatel;
-
-        System.out.println(text+odosielatel);
     }
 
 }

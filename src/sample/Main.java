@@ -7,6 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
+
 import java.sql.Connection;
 
 public class Main extends Application {
@@ -26,6 +28,7 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
+
         connection = ConnectionClass.getConnection();
         if(connection == null) {
             System.exit(1);
