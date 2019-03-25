@@ -208,6 +208,7 @@ public class ResetPass implements Initializable {
                 pstmt.setString(2, mail);
                 // update
                 pstmt.executeUpdate();
+                connection.close();
             } catch (SQLException e) {
                 System.out.println(e.getMessage());
             }
