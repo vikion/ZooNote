@@ -24,7 +24,7 @@
             </image>
         </ImageView>
         <Label fx:id="ErrorResPass" layoutX="272.0" layoutY="302.0" prefHeight="18.0" prefWidth="244.0" textFill="RED" />
-        <ImageView fx:id="overit" fitHeight="52.0" fitWidth="62.0" layoutX="363.0" layoutY="204.0" onMouseClicked="#overit" pickOnBounds="true" preserveRatio="true">
+        <ImageView fitHeight="52.0" fitWidth="62.0" layoutX="363.0" layoutY="204.0" onMouseClicked="#over" pickOnBounds="true" preserveRatio="true">
             <image>
                 <Image url="@../image/dalej.png" />
             </image>

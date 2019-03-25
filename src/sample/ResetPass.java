@@ -30,15 +30,20 @@ import java.util.Properties;
 import java.util.ResourceBundle;
 
 public class ResetPass implements Initializable {
+
+    static String kodS ="";
+    static String mail="";
+
+
     public boolean send(String mail ,String kod) {
         try {
             String host = "smtp.gmail.com";
             String user = "mochnacky@spse-po.sk";
-            String pass = "Divergencia128";
+            String pass = "Divergencia1234568";
             String to = mail;
             String from = "mochnacky@spse-po.sk";
             String subject = "OBNOVENIE HESLA!!";
-            String text = kod;
+            String text = "Overovací kód: "+kod;
             boolean sessionDebug = false;
 
             Properties props = System.getProperties();
@@ -74,12 +79,13 @@ public class ResetPass implements Initializable {
             System.out.println("message send successfully");
             return true;
         } catch (Exception ex) {
+            ex.printStackTrace();
             System.out.println("Chyba nepodarilo sa odoslat emial");
             return  false;
 
         }
     }
-    static String kodS ="";
+
     public void kod(){
         String kod="";
         for (int i=0;i<6;i++){
@@ -104,6 +110,12 @@ public class ResetPass implements Initializable {
     @FXML
     private Label ErrorResPass;
 
+    @FXML
+    private TextField hesloRes;
+
+    @FXML
+    private TextField hesloRes2;
+
    @FXML
    private void odosli() throws SQLException {
         String xLogin=loginRess.getText().toLowerCase();
@@ -117,19 +129,19 @@ public class ResetPass implements Initializable {
        statementForEmail.setString(1, xLogin);
        ResultSet Email = statementForEmail.executeQuery();
        Email.next();
+
        if (!Email.isClosed() || !Email.isClosed()) {
-           String gmail =Email.getString(1);
+           mail =Email.getString(1);
+           connection.close();
            kod();
-           System.out.println(kodS);
-           System.out.println(gmail);
-
-
-            if (send(gmail,kodS)==true) {
+            if (send(mail,kodS)==true) {
                 ResetPass2 pane = new ResetPass2();
                 mainPane.setCenter(pane);
-            }else ErrorResPass.setText("NEPODARLO SA ODOSLAT EMAIL, SKUSTE TO ZNOVA");
+                ErrorResPass.setText("Odosielanie prebehlo úspešne");
 
-           ErrorResPass.setText("Odosielanie prebehlo úspešne");
+            }else ErrorResPass.setText("NEPODARLO SA ODOSLAT EMAIL");
+
+
        }
        else{
            ErrorResPass.setText("Takéto uživateľske meno neexistuje");
@@ -154,15 +166,67 @@ public class ResetPass implements Initializable {
     }
 
     @FXML
-     public void overit(){
+     public void over(){
        if (kodRess.getText().equals(kodS)){
-           System.out.println("huraa spravnz kod");
+           try {
+               Stage stage = (Stage) back.getScene().getWindow();
+               Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/ResetPass33.fxml"));
+               stage.setTitle("Onovenie Hesla");
+
+               Scene scene = new Scene(root);
+               stage.setScene(scene);
+               stage.show();
+           } catch (IOException e) {
+               e.printStackTrace();
+               System.out.println("Nepodarilo sa nacitat obnovu hesla");
+           }
        }
        else {
            ErrorResPass.setText("Overovací kód nie je správny");
            kodRess.setText("");
        }
      }
+    @FXML
+     private void nastav()throws SQLException {
+        String newHeslo = hesloRes.getText();
+        String newHeslo2 = hesloRes2.getText();
+        if (newHeslo.length() <= 5) {
+            ErrorResPass.setText("Heslo musi obsahovat minimalne 6 znakou");
+        } else if (!newHeslo.equals(newHeslo2)) {
+            ErrorResPass.setText("Heslo sa nezhoduju");
+            hesloRes2.setText("");
+        } else {
+
+            String sql = "UPDATE pouzivatel SET password = ? WHERE email = ?";
+
+            Connection connection = ConnectionClass.getConnection();
+
+            try (PreparedStatement pstmt = connection.prepareStatement(sql)) {
+
+                // set the corresponding param
+                pstmt.setString(1, newHeslo);
+                pstmt.setString(2, mail);
+                // update
+                pstmt.executeUpdate();
+            } catch (SQLException e) {
+                System.out.println(e.getMessage());
+            }
+
+            try {
+                Stage stage = (Stage) back.getScene().getWindow();
+                Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("layout/sample.fxml"));
+                stage.setTitle("Prihlasenie");
+
+                Scene scene = new Scene(root);
+                stage.setScene(scene);
+                stage.show();
+            } catch (IOException e) {
+                e.printStackTrace();
+                System.out.println("Nepodarilo sa nacitat prihlasenie");
+            }
+
+        }
+    }
     public void initialize(URL location, ResourceBundle resources) {
 
 
