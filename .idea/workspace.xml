@@ -2,48 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac625f0-f2e0-4c6f-bfbb-bae1303b42ef" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/layout/ResetPass3.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/ResetPass33.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ResetPass3.java" afterDir="false" />
-=======
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/usersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/contentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/loginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/image/dalej.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/image/start.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/image/uvod.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/sample/Uvod.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/sample/UvodController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/sample/loginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/login/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/contentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/contentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/loginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/loginController.java" afterDir="false" />
-=======
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/Email/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/activation.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/imap.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/mail.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/mailapi.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/pop3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Email/smtp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/ResetPass2.java" afterDir="false" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/ResetPass2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Animals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Animals.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Finances.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Finances.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Invoices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Invoices.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Repairs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Repairs.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/Uvod.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/Uvod.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/layout/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/ResetPass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/ResetPass2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ResetPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ResetPass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zoonote.db" beforeDir="false" afterPath="$PROJECT_DIR$/zoonote.db" afterDir="false" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/sample/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/sample/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ZooNote/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ZooNote/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Animals.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Animals.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Finances.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Finances.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Invoices.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Invoices.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Repairs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Repairs.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Users.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Users.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Uvod.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Uvod.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,48 +55,8 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="zoonote" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="bankovy_ucet: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="pouzivatel: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="sprava: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zoonote" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="zviera: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
     </expand>
     <select />
-    &gt;&gt;&gt;&gt;&gt;&gt;&gt; a31e9005e447e6b60c71b3b02cd72565b6955512
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1787767996">
@@ -151,6 +93,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="187423715">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="21" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ZooNote" />
@@ -158,198 +128,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/ResetPass3.java">
-=======
-<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding>
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-=======
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="194">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/layout/ResetPass.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-=======
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="1162">
-              <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-=======
-            <state relative-caret-position="102">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="4" selection-end-line="6" selection-end-column="29" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
-=======
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="jar://$PROJECT_DIR$/src/connectivity/sqlite-jdbc-3.27.2.jar!/org/sqlite/core/DB.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
-=======
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
         <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="187">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="30" />
-=======
-            <state>
-              <caret lean-forward="true" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/connectivity/ConnectionClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-=======
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/Animals.java">
-=======
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/sample/ResetPass2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="jar://$PROJECT_DIR$/src/connectivity/sqlite-jdbc-3.27.2.jar!/org/sqlite/core/CorePreparedStatement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-=======
         <entry file="file://$PROJECT_DIR$/src/sample/Finances.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -359,36 +170,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Messages.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+            <state relative-caret-position="374">
+              <caret line="65" column="135" selection-start-line="65" selection-start-column="135" selection-end-line="65" selection-end-column="135" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="jar://$PROJECT_DIR$/src/connectivity/sqlite-jdbc-3.27.2.jar!/org/sqlite/jdbc3/JDBC3PreparedStatement.class">
+        <entry file="file://$PROJECT_DIR$/src/sample/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/sample/Repairs.java">
+            <state relative-caret-position="289">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="68">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-=======
-            <state relative-caret-position="95">
-              <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
+            <state relative-caret-position="272">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Repairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -397,7 +215,7 @@
         <entry file="file://$PROJECT_DIR$/src/layout/ResetPass33.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="289">
               <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
             </state>
           </provider>
@@ -408,14 +226,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< HEAD
-=======
         <option value="XSLT Stylesheet" />
-<<<<<<< HEAD
-=======
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
         <option value="FxmlFile" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
         <option value="Class" />
         <option value="FxmlFile" />
       </list>
@@ -438,39 +250,17 @@
         <option value="$PROJECT_DIR$/src/sample/Message.java" />
         <option value="$PROJECT_DIR$/src/layout/Home.fxml" />
         <option value="$PROJECT_DIR$/src/layout/sample.fxml" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/layout/ResetPass.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/Main.java" />
-        <option value="$PROJECT_DIR$/src/sample/Messages.java" />
-        <option value="$PROJECT_DIR$/src/sample/ResetPass.java" />
-        <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
-        <option value="$PROJECT_DIR$/src/style.css" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
-        <option value="$PROJECT_DIR$/src/sample/Database.java" />
-        <option value="$PROJECT_DIR$/src/sample/Request.java" />
         <option value="$PROJECT_DIR$/src/sample/User.java" />
-        <option value="$PROJECT_DIR$/src/sample/loginController.java" />
-        <option value="$PROJECT_DIR$/src/sample/RequestUsersData.java" />
-=======
-        <option value="$PROJECT_DIR$/src/layout/Admin.fxml" />
-        <option value="$PROJECT_DIR$/src/style.css" />
-        <option value="$PROJECT_DIR$/src/sample/contentController.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/layout/ResetPass3.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ResetPass3.java" />
-        <option value="$PROJECT_DIR$/src/layout/ResetPass2.fxml" />
-        <option value="$PROJECT_DIR$/src/layout/ResetPass33.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/ResetPass.java" />
-<<<<<<< HEAD
-=======
-=======
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+        <option value="$PROJECT_DIR$/src/sample/usersController.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -479,84 +269,35 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="255" />
-=======
-<<<<<<< HEAD
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1030" />
-=======
     <option name="x" value="256" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 12ab466142dace962cfd66e2d521ce83c1f90630
     <option name="y" value="5" />
     <option name="width" value="1099" />
     <option name="height" value="880" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 31bfa3bb2b1912fd6f3240d403bb419024b30b47
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="Scope" />
-=======
       <pane id="PackagesPane" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="connectivity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Email" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-            </path>
-            <path>
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-=======
-=======
               <item name="zoonote" type="b2602c69:ProjectViewProjectNode" />
-<<<<<<< HEAD
-              <item name="zoonotebad" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="zoonote" type="462c0819:PsiDirectoryNode" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
             </path>
             <path>
               <item name="zoonote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zoonotebad" type="462c0819:PsiDirectoryNode" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+              <item name="zoonote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-<<<<<<< HEAD
-              <item name="ZooNote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ZooNote" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="zoonote" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zoonotebad" type="462c0819:PsiDirectoryNode" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+              <item name="zoonote" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -564,29 +305,17 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
-      <pane id="Scope" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553555189076" />
-    <property name="database.console.LAST_STATE" value="false" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553539312805" />
-    <property name="database.console.LAST_STATE" value="false" />
-<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; a31e9005e447e6b60c71b3b02cd72565b6955512
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; 12ab466142dace962cfd66e2d521ce83c1f90630
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../start" />
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
+    &gt;&gt;&gt;&gt;&gt;&gt;&gt; 31bfa3bb2b1912fd6f3240d403bb419024b30b47
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -644,6 +373,7 @@
       <workItem from="1553502741797" duration="751000" />
       <workItem from="1553534053743" duration="219000" />
       <workItem from="1553534305970" duration="4842000" />
+      <workItem from="1553619921613" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="RessPass">
       <created>1553165784512</created>
@@ -656,7 +386,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12406000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,70 +398,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.18255034" />
-=======
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.15771812" />
-=======
-<<<<<<< HEAD
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.24832214" />
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.17919463" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="1" sideWeight="0.5010571" side_tool="true" weight="0.23489933" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5010571" side_tool="true" weight="0.23489933" />
-<<<<<<< HEAD
-=======
       <window_info id="Learn" order="7" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1319149" />
-=======
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13597734" />
-=======
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19830029" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19739696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="SQL Generator" order="14" weight="0.94192636" />
-=======
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32907802" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-=======
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.020134227" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5276596" side_tool="true" weight="0.008724832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -740,20 +429,10 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-<<<<<<< HEAD
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Preview" order="9" sideWeight="0.47234043" weight="0.008724832" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Database" order="11" weight="0.26644295" />
-=======
       <window_info anchor="right" id="Preview" order="8" sideWeight="0.47234043" weight="0.008724832" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3295302" />
-<<<<<<< HEAD
       <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" id="Database" order="11" visible="true" weight="0.020134227" />
-=======
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+      <window_info anchor="right" id="Database" order="11" visible="true" weight="0.019722814" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989429" visible="true" weight="0.18255034" />
@@ -826,60 +505,9 @@
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
     </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/sample/UvodController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/misc/Launcher.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-=======
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-    <entry file="file://$PROJECT_DIR$/src/sample/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/ClassLoader.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/jre/lib/rt.jar!/sun/misc/Launcher.class" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Animals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/sample/Finances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
-        </state>
-      </provider>
-    </entry>
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
     <entry file="file://$PROJECT_DIR$/src/layout/Finances.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
@@ -904,29 +532,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
-=======
-    <entry file="file://$PROJECT_DIR$/src/sample/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
-    <entry file="file://$PROJECT_DIR$/src/sample/Finances.java">
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-=======
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
     <entry file="file://$PROJECT_DIR$/src/layout/Animals.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
@@ -943,54 +548,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.xsl" />
-    <entry file="das://4b574012-f962-48e4-b337-94728f9da6a1/schema/main/table/sprava" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/SendMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
-    <entry file="file://$PROJECT_DIR$/src/layout/Home.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="96" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/Initializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/javafx/fxml/Initializable.java" />
     <entry file="file://$PROJECT_DIR$/src/layout/Home.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -1011,49 +569,13 @@
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="554" selection-start-line="554" selection-end-line="554" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Finances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/View.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/sample/ResetPass2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -1088,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,47 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/connectivity/ConnectionClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1162">
-          <caret line="116" column="46" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass33.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-=======
-    <entry file="das://4b574012-f962-48e4-b337-94728f9da6a1/schema/main/table/sprava">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://4b574012-f962-48e4-b337-94728f9da6a1/schema/main/table/sprava" />
     <entry file="file://$PROJECT_DIR$/src/connectivity/ConnectionClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1173,57 +652,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-          </folding>
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ResetPass.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="744">
-          <caret line="225" column="13" selection-start-line="225" selection-start-column="13" selection-end-line="225" selection-end-column="13" />
-=======
-<<<<<<< HEAD
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-=======
         <state relative-caret-position="95">
           <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
->>>>>>> a31e9005e447e6b60c71b3b02cd72565b6955512
->>>>>>> 31bfa3bb2b1912fd6f3240d403bb419024b30b47
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1237,21 +669,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="4" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass2.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layout/ResetPass33.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/RequestUsersData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
->>>>>>> 12ab466142dace962cfd66e2d521ce83c1f90630
+        <state relative-caret-position="272">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Home.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Repairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1262,17 +736,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Repairs.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/contentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Messages.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="194">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/usersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="65" column="135" selection-start-line="65" selection-start-column="135" selection-end-line="65" selection-end-column="135" />
         </state>
       </provider>
     </entry>

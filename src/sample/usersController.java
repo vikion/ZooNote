@@ -63,15 +63,14 @@ public class usersController implements Initializable {
         data.next();
         for (int i = 0; i < userArray.length; i++) {
             if (!data.isClosed()) {
-                System.out.println(data.getString(4));
-                userArray[i] = new User(data.getString(5), data.getString(6), data.getString(2), data.getString(4), data.getString(7));
+                userArray[i] = new User(data.getString(5), data.getString(6), data.getString(2), data.getString(7), data.getString(4));
                 data.next();
 
             }
         }
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("Name"));
         surnameColumn.setCellValueFactory(new PropertyValueFactory<>("Surname"));
-        usernameColumn.setCellValueFactory(new PropertyValueFactory<>("UserName"));
+        usernameColumn.setCellValueFactory(new PropertyValueFactory<>("Username"));
         emailColumn.setCellValueFactory(new PropertyValueFactory<>("Email"));
         typeColumn.setCellValueFactory(new PropertyValueFactory<>("Type"));
         ObservableList<User> userObservableListList = FXCollections.observableArrayList(userArray);
