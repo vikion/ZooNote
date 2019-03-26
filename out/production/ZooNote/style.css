@@ -1,10 +1,14 @@
-
-
-.back{
+.back-login{
 -fx-background-image: url("image/start.png");
--fx-background-repeat:no-repeat;
+-fx-background-repeat:stretch;
 -fx-background-position:center;
 -fx-background-size:cover;
+}
+.back{
+    -fx-background-image: url("image/background.png");
+    -fx-background-repeat:stretch;
+    -fx-background-position:center;
+    -fx-background-size:cover;
 }
 
 .text{
