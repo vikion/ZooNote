@@ -6,14 +6,14 @@
 
 <fx:root prefHeight="562.0" prefWidth="800.0" styleClass="back" stylesheets="@../style.css" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.usersController">
    <children>
-      <TableView fx:id="usersTable" layoutX="103.0" layoutY="73.0" prefHeight="416.0" prefWidth="588.0">
+      <TableView fx:id="usersTable" layoutX="66.0" layoutY="63.0" prefHeight="422.0" prefWidth="681.0" styleClass="table" stylesheets="@../style.css">
         <columns>
-            <TableColumn fx:id="nameColumn" prefWidth="75.0" text="MENO" />
-          <TableColumn fx:id="surnameColumn" prefWidth="113.0" text="PRIEZVISKO" />
-          <TableColumn fx:id="usernameColumn" prefWidth="144.0" text="POUZIVATELSKE MENO" />
-            <TableColumn fx:id="emailColumn" prefWidth="134.0" text="E-mail" />
-            <TableColumn fx:id="typeColumn" prefWidth="86.0" text="FUNKCIA" />
-            <TableColumn fx:id="deleteColumn" prefWidth="35.0" text="X" />
+            <TableColumn fx:id="nameColumn" prefWidth="84.800048828125" text="MENO" />
+          <TableColumn fx:id="surnameColumn" prefWidth="127.2000732421875" text="PRIEZVISKO" />
+          <TableColumn fx:id="usernameColumn" minWidth="0.0" prefWidth="166.39996337890625" text="POUZIVATELSKE MENO" />
+            <TableColumn fx:id="emailColumn" prefWidth="157.60003662109375" text="E-mail" />
+            <TableColumn fx:id="typeColumn" minWidth="0.0" prefWidth="100.800048828125" text="FUNKCIA" />
+            <TableColumn fx:id="deleteColumn" minWidth="6.4000244140625" prefWidth="44.79995117187502" sortType="DESCENDING" text="X" />
         </columns>
       </TableView>
    </children>
