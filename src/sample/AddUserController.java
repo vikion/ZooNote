@@ -1,23 +1,35 @@
 package sample;
 
 import connectivity.ConnectionClass;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 
 
-public class AddUserController {
+public class AddUserController implements Initializable {
 
+
+
+
+    ObservableList vyber= FXCollections.observableArrayList();
+    @FXML
+    private ChoiceBox<String> cb;
     @FXML
     private ImageView zaregistruj;
     @FXML
@@ -30,8 +42,6 @@ public class AddUserController {
     private TextField usernameField;
     @FXML
     private TextField hesloField;
-    @FXML
-    private TextField typField;
     @FXML
     private Label zle;
 
@@ -47,18 +57,17 @@ public class AddUserController {
         stage.show();
     }
     public void getFromFields(){
-        data[0] = menoField.getText();
-        data[1] = priezviskoField.getText();
-        data[2] = usernameField.getText();
-        data[3] = emailField.getText();
-        data[4] = hesloField.getText();
-        data[5] = typField.getText();
+        data[3] = menoField.getText();
+        data[4] = priezviskoField.getText();
+        data[0] = usernameField.getText();
+        data[5] = emailField.getText();
+        data[1] = hesloField.getText();
+        data[2] = cb.getValue();
         register();
     }
     private void register(){
         Connection connection = ConnectionClass.getConnection();
         String insertQuery = "INSERT INTO pouzivatel(username,password,typ_konta,meno,priezvisko,email) VALUES(?,?,?,?,?,?)";
-        checkFieldData();
         if (checkFieldData()) {
             try {
                 PreparedStatement preparedStatementForInsert = connection.prepareStatement(insertQuery);
@@ -77,15 +86,22 @@ public class AddUserController {
             zle.setText("Vsetky polia su povinne!");
             return false;
         }
-        else if (!data[3].contains("@")){
+        else if (!data[5].contains("@")){
             zle.setText("Zadali ste naplatny e-mail!");
-            return false;
-        }
-        else if (!data[5].equals("opravar") || !data[5].equals("admin") || !data[5].equals("osetrovatel")){
-            zle.setText("Zadali ste zly typ konta!");
             return false;
         }
         return true;
     }
+    private void LoadData(){
+        vyber.addAll(vyber);
+        String a="osetrovatel";
+        String b="opravar";
+        vyber.addAll(a,b);
+        cb.getItems().addAll(vyber);
+    }
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        LoadData();
+    }
 }

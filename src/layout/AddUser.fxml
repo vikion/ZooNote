@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -9,7 +10,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
+<BorderPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="back" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddUserController">
    <center>
         <AnchorPane maxHeight="628.0" maxWidth="929.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="798.0" styleClass="back-login" stylesheets="@../style.css" BorderPane.alignment="CENTER">
             <children>
@@ -77,16 +78,12 @@
                   <Font name="System Bold" size="20.0" />
                </font>
             </TextField>
-            <TextField id="pane" fx:id="typField" layoutX="438.0" layoutY="245.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
-               <font>
-                  <Font name="System Bold" size="20.0" />
-               </font>
-            </TextField>
             <TextField id="pane" fx:id="emailField" layoutX="132.0" layoutY="245.0" prefHeight="45.0" prefWidth="250.0" styleClass="text">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
             </TextField>
+            <ChoiceBox fx:id="cb" layoutX="440.0" layoutY="246.0" prefHeight="45.0" prefWidth="250.0" styleClass="text" />
             </children>
         </AnchorPane>
    </center>

@@ -93,13 +93,6 @@ public class loginController implements Initializable {
         }
     }
 
-    /*public String  getNameSurname(){
-        //System.out.println(nameSurname+" GET");
-        return nameSurname;
-    }
-    public void setNameSurname(String nameSurname){
-        contentController.menoPriezvisko.setText(nameSurname);
-    }*/
 
     @FXML
     private void ZabudolPass(){

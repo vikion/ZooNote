@@ -26,7 +26,7 @@ public class contentController extends loginController implements Initializable 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        menoPriezvisko.setText(sample.loginController.nameSurname);
+        menoPriezvisko.setText(nameSurname);
         Home home = new Home();
         mainPane.setCenter(home);
     }
