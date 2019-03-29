@@ -38,10 +38,10 @@ public class ResetPass implements Initializable {
     public boolean send(String mail ,String kod) {
         try {
             String host = "smtp.gmail.com";
-            String user = "mochnacky@spse-po.sk";
-            String pass = "Divergencia1234568";
+            String user = "zoonote.ke@gmail.com";
+            String pass = "Zoonote125";
             String to = mail;
-            String from = "mochnacky@spse-po.sk";
+            String from = "zoonote.ke@gmail.com";
             String subject = "OBNOVENIE HESLA!!";
             String text = "Overovací kód: "+kod;
             boolean sessionDebug = false;
@@ -118,7 +118,7 @@ public class ResetPass implements Initializable {
 
    @FXML
    private void odosli() throws SQLException {
-        String xLogin=loginRess.getText().toLowerCase();
+        String xLogin=loginRess.getText();
 
        String sqlEmail = "SELECT email FROM pouzivatel WHERE username = ?" ;
 

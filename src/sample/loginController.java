@@ -35,11 +35,12 @@ public class loginController implements Initializable {
 
     @FXML
     private void prihlasSa(){
-        String login= meno.getText().toLowerCase();
+        String login= meno.getText();
         String pass = heslo.getText();
 
         RequestUsersData request = new RequestUsersData();
         User user = request.getUsersData(login, pass);
+        System.out.println(login);
 
         if (user != null) {
             if (user.getType().equals("admin")) {
