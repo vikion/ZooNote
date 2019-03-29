@@ -8,7 +8,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 
-
+import java.net.URL;
 import java.sql.Connection;
 
 public class Main extends Application {
@@ -34,6 +34,8 @@ public class Main extends Application {
             System.exit(1);
         }
         launch(args);
+
+        URL icon = Main.class.getResource()
 
 
     }

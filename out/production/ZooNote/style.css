@@ -34,6 +34,91 @@
   -fx-background-color:black;
   }
 
+<<<<<<< HEAD
+/*table*/
+
+.table{
+-fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: transparent;
+}
+
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+     -fx-font-size:17px;
+     -fx-font-weight:bold;
+    -fx-border-width: 0 1 2 0;
+    -fx-border-color:  black ;
+    -fx-table-cell-border-color:black;
+     -fx-table-cell-border-width:2;
+     -fx-table-cell-border-color:black;
+
+}
+
+
+.table-row-cell{
+
+    -fx-background-color:rgba(50,56,42, 0.3) ;
+    -fx-table-cell-border-color:black;
+
+
+
+}
+
+
+
+
+  .table-view .table-row-cell{
+         -fx-font-size:15px;
+         -fx-font-weight: bold;
+
+       }
+
+  .table-view .table-column{
+      -fx-alignment:center;
+  }
+
+
+.table-row-cell:odd{
+        -fx-background-color: transparent;
+    -fx-table-cell-border-color:black;
+
+
+}
+
+.table-row-cell{
+-fx-border-width: 0 0 1.5 0;
+-fx-border-color: black;
+}
+
+
+.table-row-cell:selected {
+    -fx-background-color: #80906c;
+
+}
+
+.table-view .filler{
+-fx-background-color:transparent;
+}
+/*
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button,
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+=======
 /*
 .table-view {
     -fx-base: #1d1d1d;
@@ -113,3 +198,4 @@
     -fx-alignment: CENTER;
 
 }*/
+>>>>>>> 1e6f19f61ae8794bbc0531a4c595f60630091090
